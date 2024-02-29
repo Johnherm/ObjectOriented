@@ -12,3 +12,20 @@ emp_1 = Employee("Corey","Schafer","Corey.Schafer@gmail.com",50000) #This is fir
 emp_2 = Employee("Test","User","Test.user@gmail.com",60000) #This is second employee data
 print(emp_1.fullname1())
 print(emp_2.fullname2())
+
+#This is the difference between function and class 
+def firstEmployee():
+    first = "Corey"
+    last = "Schafer"
+    email = "coery.schafer@gmail.com"
+    pay =  50000
+    print(first, last, email, pay)
+def secondEmployee():
+    first = "Test"
+    last = "User"
+    email = "test.user@gmail.com"
+    pay = 60000
+    # print(first, last, email, pay)
+    print(first, last, email, pay)
+firstEmployee()
+secondEmployee()
