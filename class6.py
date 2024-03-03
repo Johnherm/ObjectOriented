@@ -46,7 +46,7 @@ print(emp_1.raise_amount)
 print(emp_1.__dict__)
 print(emp_2.__dict__)
 print(Employee.__dict__)
-#changing the amount of raise and displays the changes using the instance
+#changing the amount of raise and displays the changes using the instance variables
 Employee.raise_amount = 1.05
 print(emp_1.apply_raise())
 print(emp_2.apply_raise())
@@ -63,7 +63,7 @@ print(emp_2.apply_raise3())
 print(Employee.raise_amount)
 print(emp_1.raise_amount)
 
-#changing the amount of raise and displays the changes using the class
+#changing the amount of raise and displays the changes using the class variables
 emp_1.raise_amount = 1.06
 print(emp_1.__dict__)
 print(emp_2.__dict__)
