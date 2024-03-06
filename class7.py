@@ -15,11 +15,11 @@ class Employee():
     def set_raise_amt(cls,amount):
         cls.raise_amt = amount
 
-
+# Creating a variable or assign the employees
 
 emp_1 = Employee("Corey", "Jackson",50000)
 emp_2 = Employee("Test", "Employee",60000)
-
+#Print out the employee data or information
 emp_1.set_raise_amt(1.06) 
 Employee.set_raise_amt(1.05)
 print(emp_1.full_name())
@@ -27,4 +27,3 @@ print(emp_2.full_name())
 print(Employee.raise_amt)
 print(emp_1.raise_amt)
 print(emp_2.raise_amt)
-print(Employee.num_of_employees)
